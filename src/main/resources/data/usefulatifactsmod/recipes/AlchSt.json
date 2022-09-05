@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "usefulatifactsmod:redstone_ston8"
+  },
+  "addition": {
+    "item": "minecraft:experience_bottle"
+  },
+  "result": {
+    "item": "usefulatifactsmod:alchemical_stone"
+  }
+}

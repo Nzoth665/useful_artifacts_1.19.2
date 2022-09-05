@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XZX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:redstone"
+    },
+    "Z": {
+      "item": "usefulatifactsmod:ston"
+    }
+  },
+  "result": {
+    "item": "usefulatifactsmod:redstone_ston"
+  }
+}

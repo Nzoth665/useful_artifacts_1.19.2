@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "usefulatifactsmod:redstone_ston3"
+  },
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "item": "usefulatifactsmod:redstone_ston4"
+  }
+}

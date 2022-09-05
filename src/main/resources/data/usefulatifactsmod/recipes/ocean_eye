@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    "XYX",
+    "ZXZ"
+  ],
+  "key": {
+    "Z": {
+      "item": "minecraft:diamond"
+    },
+    "X": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "Y": {
+      "item": "usefulatifactsmod:elder_guardial_eye"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone"
+  }
+}

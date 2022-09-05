@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "usefulatifactsmod:redstone_ston2"
+  },
+  "result": "usefulatifactsmod:redstone_ston3",
+  "experience": 10,
+  "cookingtime": 10
+}

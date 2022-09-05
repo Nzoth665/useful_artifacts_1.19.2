@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "usefulatifactsmod:redstone_ston6"
+  },
+  "addition": {
+    "item": "minecraft:emerald"
+  },
+  "result": {
+    "item": "usefulatifactsmod:redstone_ston7"
+  }
+}

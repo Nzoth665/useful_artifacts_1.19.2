@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZX",
+    "ZYZ",
+    "XZX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:netherite_block"
+    },
+    "Z": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "Y": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "usefulatifactsmod:hell_star"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "usefulatifactsmod:redstone_ston"
+  },
+  "result": "usefulatifactsmod:redstone_ston2",
+  "experience": 10,
+  "cookingtime": 10
+}
