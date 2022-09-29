@@ -3,12 +3,14 @@ package net.nzot.usefulatifactsmod.item.costom;
 import net.minecraft.commands.arguments.ResourceKeyArgument;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.enchantment.DamageEnchantment;
 import net.minecraftforge.registries.DeferredRegister;
 import top.theillusivec4.curios.api.SlotContext;
@@ -47,5 +49,11 @@ public class BloodTies extends Item implements ICurioItem {
         /**/
 
         ICurioItem.super.onUnequip(slotContext, newStack, stack);
+    }
+
+    @Override
+    public InteractionResult onItemUseFirst(ItemStack stack, UseOnContext context) {
+
+        return super.onItemUseFirst(stack, context);
     }
 }
